@@ -6,7 +6,7 @@ public class AccesoProduccion implements IDAO{
 
     @Override
     public String insertar(Cliente c1) {
-        return "Insertando a "+c1.getNIF();
+        return "Insertando en produccion a "+c1.getNIF();
     }
 
     public AccesoProduccion() {
